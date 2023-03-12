@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/assets/images/bg-img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10vh;
+  background-color: #3c6894;
+}
+
+.nav ul li {
+  margin: 3vh 2vw;
+  display: inline-block;
+  font-size: 1.5vw;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.payment {
+  padding: 8px;
+  width: 150px;
+  height: 5vh;
+  display: inline-block;
+  background-color: #39395f;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  top: 17px;
+  bottom: 17px;
+}
+
+.hover {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hover:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease;
+}
+
+.hover:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.payment:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.hope {
+  margin: 50px;
+}
+.name {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 3.5em;
+}
+.tagline {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 1.5em;
+}
+.work {
+  color: white;
+  font-size: 1.8em;
+}
+.para {
+  color: white;
+  text-align: justify;
+  font-size: 1.2em;
+}
+.projects {
+  display: flex;
+  direction: row;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(255, 255, 255, 0.15); */
+}
+.projectdetail {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  justify-content: center;
+  width: 294px;
+  font-size: 4vh;
+  color: white;
+  padding: 60px;
+}
+.reach {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1000px) {
+  .projects {
+    flex-wrap: wrap;
+  }
+}
+.socialmedia {
+    background-color: rgba(51, 51, 51, 0.9);
+    display: flex;
+    flex-direction:row-reverse;
+    margin: 0px;
+    padding: 20px;
+}
+.socialmedia ul li {
+    display: inline-block;
+}
+.linkicon {
+    margin: 5px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+.sclmda {
+    margin-right: 167px;
+    font-family: "Playfair Display", serif;
+    text-align: right;
+    font-size: 3.5vh;
+    color: white;
+}
+@media (max-width :800px) {
+    .socialmedia {
+        flex-direction: column;
+        align-items: center;
+    }
+}
