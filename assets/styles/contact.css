@@ -3,6 +3,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media (max-width: 800px) {
+    body{
+      background-color: rgb(144, 167, 187);
+      background-image: none;
+  }
+  }
 
 .h1locate {
     margin-top: 15px;
@@ -42,7 +48,11 @@ body {
     border: 1px solid black;
     border-radius: 5px;
 }
-
+@media (max-width: 800px) {
+    .location {
+        background-color: white;
+    }
+}
 .address {
     padding: 20px;
     font-size: 14px;

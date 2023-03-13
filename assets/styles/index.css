@@ -98,10 +98,8 @@ body {
   padding: 10px 0px;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.7);
-  /* background-color: rgba(255, 255, 255, 0.15); */
 }
 .projectdetail {
-  /* background-color: rgba(0, 0, 0, 0.7); */
   justify-content: center;
   width: 294px;
   font-size: 4vh;
