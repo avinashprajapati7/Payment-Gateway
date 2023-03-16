@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon.png"
+      type="image/x-icon"
+    />
     <title>Contact-Hope Foundation</title>
-    <link rel="stylesheet" href="/assets/styles/index.css">
-    <link rel="stylesheet" href="/assets/styles/contact.css">
-</head>
+    <link rel="stylesheet" href="/assets/styles/index.css" />
+    <link rel="stylesheet" href="/assets/styles/contact.css" />
+  </head>
 
-<body>
-    <div class="nav">
-        <ul>
-            <li class="hover"><a href="index.html">Home</a></li>
-            <li class="hover"><a href="about.html">About</a></li>
-            <li class="hover"><a href="contact.html">Contact</a></li>
-        </ul>
-        <button class="payment" 
-            onclick="window.location.href = 'payment.html';">
-                CONTRIBUTE
-            </button>
+  <body>
+    <div class="topnav">
+      <ul>
+        <li class="hover"><a href="index.html">Home</a></li>
+        <li class="hover"><a href="about.html">About</a></li>
+        <li class="hover"><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="payment" onclick="window.location.href = 'payment.html';">
+        CONTRIBUTE
+      </button>
     </div>
     <h1 class="h1locate">Locate Us</h1>
     <div class="locate">
-        <div class="location">
-            <pre class="address">
+      <div class="location">
+        <pre class="address">
 Street: 4/f, Laxmi India
 Estate, New Link Rd,
 Off J P Rd, Andheri (west)
@@ -34,20 +36,22 @@ City: Mumbai
 State: Maharashtra
 Phone Number: 02226365626
 Zip code: 400052
-Country: India</pre>
-        </div>
-        <div class="location">
-            <pre class="address">
+Country: India</pre
+        >
+      </div>
+      <div class="location">
+        <pre class="address">
 Street: 41, Beniatola Street, 
 Hatkhola
 City: Kolkata
 State: West Bengal
 Phone number: 03325308179
 Zip code: 700005
-Country: India</pre>
-        </div>
-        <div class="location">
-            <pre class="address">
+Country: India</pre
+        >
+      </div>
+      <div class="location">
+        <pre class="address">
 Street: 102, Plot 393,
 Suryodaya Coop Hsg Soc, 
 Navrangpura
@@ -55,10 +59,11 @@ City: Ahmedabad
 State: Gujarat
 Phone number: 02224455860
 Zip code: 380009
-Country: India</pre>
-        </div>
-        <div class="location">
-            <pre class="address">
+Country: India</pre
+        >
+      </div>
+      <div class="location">
+        <pre class="address">
 Street: Shp 9, Panth Ngr, 
 Opp Apna Bazar , B/h Bld 54, 
 Chepauk
@@ -67,36 +72,65 @@ State: Tamilnadu
 Phone number: 02225169534
 Zip code: 600005
 Country India
-    </pre>
-        </div>
-    </div><br>
-<h1 class="h1contact">Contact Us</h1>
-<div class="container">
-    <form autocomplete="off" method="post">
-        <label for="fname" style="font-size: 18px;">Your Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Enter Your Name" required>
+    </pre
+        >
+      </div>
+    </div>
+    <br />
+    <h1 class="h1contact">Contact Us</h1>
+    <div class="container">
+      <form autocomplete="off" method="post">
+        <label for="fname" style="font-size: 18px">Your Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Enter Your Name"
+          required
+        />
 
-        <label for="mail" style="font-size: 18px;">Email</label>
-        <input type="text" id="mail" name="mailid" placeholder="Enter Your Email" required>
+        <label for="mail" style="font-size: 18px">Email</label>
+        <input
+          type="text"
+          id="mail"
+          name="mailid"
+          placeholder="Enter Your Email"
+          required
+        />
 
-        <label for="phone" style="font-size: 18px;">Phone No.</label>
-        <input type="text" id="phone" name="phoneno" placeholder="Enter Your Phone No." required>
+        <label for="phone" style="font-size: 18px">Phone No.</label>
+        <input
+          type="text"
+          id="phone"
+          name="phoneno"
+          placeholder="Enter Your Phone No."
+          required
+        />
 
-        <label for="state" style="font-size: 18px;">State</label>
-        <input type="text" id="state" name="statename" placeholder="State" required>
+        <label for="state" style="font-size: 18px">State</label>
+        <input
+          type="text"
+          id="state"
+          name="statename"
+          placeholder="State"
+          required
+        />
 
-        <label for="message" style="font-size: 18px;">Message</label>
-        <textarea id="message" name="yourmessage" placeholder="Write something.." style="height:200px"></textarea>
+        <label for="message" style="font-size: 18px">Message</label>
+        <textarea
+          id="message"
+          name="yourmessage"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
 
-        <input type="submit" value="Submit" onclick="popup()">
-    </form>
-</div>
-<script>
-    function popup() {
+        <input type="submit" value="Submit" onclick="popup()" />
+      </form>
+    </div>
+    <script>
+      function popup() {
         alert("Your message has been submitted.");
-    }
-</script>
-
-</body>
-
+      }
+    </script>
+  </body>
 </html>

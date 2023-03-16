@@ -1,66 +1,64 @@
 body {
-    background-image: url('/assets/images/bg-img.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("/assets/images/bg-img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 @media (max-width: 800px) {
-    body{
-      background-color: rgb(144, 167, 187);
-      background-image: none;
+  body {
+    background-color: rgb(144, 167, 187);
+    background-image: none;
   }
-  }
+}
 
 .h1locate {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 40px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 40px;
 }
 
 .locate {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /*display: grid;
-    height: 60vh;
-    row-gap: 30px;
-    column-gap: 30px;
-    grid-template-columns: 25vw 25vw;
-    grid-template-rows: 26vh 26vh;
-    align-content: center;
-    justify-content: center;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-@media (max-width : 800px) {
-    .locate {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-@media (max-width: 1000px) {
-    .locate {
-        flex-wrap: wrap;
-    }
-}
-.location {
-    margin: 20px 20px;
-    height: 200px;
-    width: 275px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid black;
-    border-radius: 5px;
-}
+
 @media (max-width: 800px) {
-    .location {
-        background-color: white;
-    }
+  .locate {
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
+@media (max-width: 1000px) {
+  .locate {
+    flex-wrap: wrap;
+  }
+}
+
+.location {
+  margin: 20px 20px;
+  height: 200px;
+  width: 275px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .location {
+    background-color: white;
+  }
+}
+
 .address {
-    padding: 20px;
-    font-size: 14px;
+  padding: 20px;
+  font-size: 14px;
 }
 
 .h1contact {
-    font-size: 40px;
-    text-align: center;
+  font-size: 40px;
+  text-align: center;
 }
 
 #fname,
@@ -69,31 +67,31 @@ body {
 #state,
 #message,
 textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    resize: none;
-    background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: none;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-input[type=submit] {
-    background-color: #3c6894;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+input[type="submit"] {
+  background-color: #3c6894;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-input[type=submit]:hover {
-    scale: 1.2;
+input[type="submit"]:hover {
+  scale: 1.2;
 }
 
 .container {
-    margin: 0px;
-    padding: 20px;
+  margin: 0px;
+  padding: 20px;
 }
